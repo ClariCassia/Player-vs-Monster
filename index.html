@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matador de Monstro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+    <script src="https://unpkg.com/vue@2"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="panel scores">
+
+            <div class="score">
+                <div class="container-score">
+                    <h1>Jogador</h1>
+                    <img src="./src/image/avatar-jogador.png" alt="avatar jogador - espadas">
+                    <div class="life-bar">
+                        <div class="life" :class="{ 'danger': playerLife < 20 }" :style="{ width: playerLife + '%' }">
+                        </div>
+                    </div>
+                </div>
+                <div> Life: {{ playerLife }} %</div>
+            </div>
+
+            <img src="./src/image/vs-41942.png" alt="icone de vs">
+
+            <div class="score">
+                <div class="container-score">
+                    <h1>Monstro</h1>
+                    <img src="./src/image/avatar-mostro.png" alt=" avatar - monstro">
+                    <div class="life-bar">
+                        <div class="life" :class="{ 'danger': monsterLife < 20 }" :style="{ width: monsterLife + '%' }">
+                        </div>
+                    </div>
+                </div>
+                <div> Life: {{ monsterLife }} %</div>
+            </div>
+
+        </div>
+        <div class="panel result" v-if="hasResult">
+            <div class="win" v-if="monsterLife == 0">Você venceu!!! 🏆</div>
+            <div class="lose" v-else>Você perdeu! 😢</div>
+        </div>
+        <div class="panel buttons">
+            <template v-if="running">
+                <button class="btn attack" @click="attack(false)">Ataque</button>
+                <button class="btn special-attack" @click="attack(true)">Ataque Especial</button>
+                <button class="btn heal" @click="healAndHurt">Curar</button>
+                <button class="btn give-up" @click="running = false">Desistir</button>
+            </template>
+            <button class="btn new-game" v-else @click="startGame">Iniciar Jogo</button>
+        </div>
+        <div class="panel logs" v-if="logs.length" >
+            <ul>
+                <li v-for="log in logs" :class="log.cls">{{ log.text }}</li>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
