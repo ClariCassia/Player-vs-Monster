@@ -148,7 +148,7 @@ body{
     padding: 0;
     margin: 0;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .logs ul li {
@@ -160,6 +160,7 @@ body{
     font-size: 1.1rem;
     text-transform: uppercase;
     border-radius: 3px;
+    width: 100%;
 }
 
 .player {
