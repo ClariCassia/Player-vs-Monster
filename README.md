@@ -15,18 +15,19 @@ Para ver o projeto pronto [clique aqui 🖱️](https://clari-cassia-projetcs-pl
 
 <h2 align="center">Layouts: Desktop / Mobile</h2>
 
-<div  style="display: flex; justify-content: space-around ">
-    <img src="src/images/gif-desktop.gif" height="405px" alt="Layout Desktop" />
-    <img src="src/images/gif-mobile.gif" height="405px" alt="Layout Mobile" />
+<div align="center">
+    <img src="src/images/gif-desktop.gif" height="435px" alt="Layout Desktop" style="margin-right: 50px;" />
+    <img src="src/images/gif-mobile.gif" height="435px" alt="Layout Mobile" />
 </div>
 
-<h2 align="center">O que eu aprendi</h2>
+<h2 align="center"> O que eu aprendi</h2>
 
 Com a conclusão do meu primeiro projeto em Vue.js, aprendi a controlar o fluxo do jogo usando condicionais, como habilitar ou desabilitar ações conforme a situação exigia. Também explorei o uso de classes para aplicar estilos dinâmicos, alterando a aparência dos botões com base na saúde do jogador e do monstro.
 
 Ao trabalhar com o objeto data, consegui gerenciar o estado do jogo, armazenando e atualizando informações críticas como a vida dos personagens. Usei watch para monitorar mudanças nesses dados, o que me permitiu ocultar ou exibir botões de acordo com a necessidade do jogo. Além disso, utilizei computed para criar resultados dinâmicos que se recalculam automaticamente à medida que os dados mudam, tornando o código mais eficiente e fácil de manter.
 
 Esse projeto me proporcionou uma compreensão sólida de como Vue.js pode simplificar o desenvolvimento de interfaces interativas e reativas.
+
 <h2 align="center">Tecnologias utilizadas</h2>
 
 <div align="center">
