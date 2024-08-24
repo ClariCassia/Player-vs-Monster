@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    .panel {
+        flex-direction: column;
+    }
+
+    .panel img {
+        width: 120px;
+    }
+
+    .score {
+        width: 100%;
+    }
+
+    .score h1 {
+        font-size: 1.4rem;
+    }   
+
+    .buttons {
+        gap: 8px;
+    }
+
+    #vs {
+        width: 40px;
+    }
+
+    .logs ul li {
+        font-size: 13px;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    .panel img {
+
+        width: 100px;
+    }  
+
+}
+@media screen and (max-width: 365px) {
+
+    .panel img {
+        width: 80px;
+    }  
+    
+    .btn.new-game{
+        font-size: 1rem;
+    }
+
+}
