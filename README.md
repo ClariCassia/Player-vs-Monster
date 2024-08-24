@@ -17,14 +17,14 @@ O objetivo principal é derrotar o monstro usando uma combinação estratégica 
 ## Layout desktop
 
 <br>
- <img src="src/image/nike-desktop.gif" alt="gif tela desktop">
+ <img src="src/images/gif-desktop.gif" alt="gif tela desktop">
 <br>
 <br>
 
 ## Layout Mobile
 
 <br>
- <img src="src/image/nike-mobile.gif" alt="gif tela mobile">
+ <img src="src/images/gif-mobile.gif" alt="gif tela mobile">
 <br>
 <br>
 
@@ -42,4 +42,4 @@ Esse projeto me proporcionou uma compreensão sólida de como Vue.js pode simpli
 
 ## Acesso a página
 
-Para ver o projeto pronto [clique aqui](https://clari-cassia-projetcs-lancamento-tenis-nike.vercel.app/)
+Para ver o projeto pronto [clique aqui](https://clari-cassia-projetcs-player-vs-monster.vercel.app/)
