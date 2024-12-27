@@ -9,7 +9,7 @@ Player-vs-Monster é um jogo interativo construído com Vue.js, onde o jogador e
 <li>🚪 Desistir: Caso o jogador perceba que não pode vencer, ele pode optar por desistir da batalha, encerrando o jogo.</li>
 </ul>
 
-O objetivo principal é derrotar o monstro usando uma combinação estratégica dessas ações, gerenciando a vida e os recursos do jogador de forma eficiente. Com uma interface simples e dinâmica, o Monster Battle Arena é um excelente projeto para demonstrar habilidades em Vue.js e lógica de jogo.
+O objetivo principal é derrotar o monstro usando uma combinação estratégica dessas ações, gerenciando a vida e os recursos do jogador de forma eficiente. Com uma interface simples e dinâmica, essa aplicação é um excelente projeto para praticar habilidades em Vue.js e lógica de jogo. 
 
 Para ver o projeto pronto [clique aqui 🖱️](https://clari-cassia-projetcs-player-vs-monster.vercel.app/)
 
